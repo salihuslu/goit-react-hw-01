@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .avatar {
+    border-radius: 50%;
+  }
+  
+  .name {
+    font-weight: bold;
+    flex-grow: 1;
+  }
+  
+  .online {
+    color: green;
+  }
+  
+  .offline {
+    color: red;
+  }
+  
