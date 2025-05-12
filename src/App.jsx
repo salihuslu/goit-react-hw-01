@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css'
-import Profile from "./components/Profile";
+import Profile from "./components/Profile/Profile";
 import userData from "./userData.json";
 import friends from "./friends.json";
 import FriendList from "./components/FriendList/FriendList";
@@ -17,10 +17,7 @@ const App = () => {
         stats={userData.stats}
       />
       <FriendList friends={friends} />
-      <div>
-        <h1 style={{ textAlign: "center" }}>İşlem Geçmişi</h1>
-        <TransactionHistory items={transactions} />
-      </div>
+      <TransactionHistory items={transactions} />
     </>
   );
 };
